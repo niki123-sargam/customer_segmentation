@@ -92,6 +92,21 @@ The Power BI dashboard provides insights such as:
 ### Executive Overview
 ![Dashboard Overview](customer_seg_powerbi.png)
 
+## 🔍 Key Business Insights
+
+- Majority of customers belong to the **Regular Customers** segment, contributing the highest share of revenue.
+- **Loyal High-Value Customers**, though fewer in number, generate significantly higher monetary value per customer.
+- **At-Risk Customers** show high recency values with low monetary contribution, indicating churn risk.
+- Recent customers with high spending present strong **upsell and retention opportunities**.
+
+
+## 🛠 Tools & Technologies
+
+- Python (Pandas, NumPy) – Data cleaning & RFM analysis  
+- Jupyter Notebook – Exploratory Data Analysis  
+- Power BI – Interactive dashboard & visual analytics  
+- Git & GitHub – Version control and project documentation  
+
 
 ## 👤 Author
 **Nikhita Sargam**  
