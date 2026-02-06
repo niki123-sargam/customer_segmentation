@@ -63,3 +63,33 @@ The Power BI dashboard provides insights such as:
 ---
 
 ## 📁 Project Structure
+
+
+---
+
+## 🚀 How to Use This Project
+1. Clone or download this repository
+2. Open the Jupyter Notebook to review data cleaning and RFM analysis
+3. Open the `.pbix` file using Power BI Desktop
+4. Explore the interactive dashboard and customer insights
+
+---
+
+## 📌 Key Learnings
+- Practical implementation of RFM-based customer segmentation
+- Translating raw transactional data into business insights
+- Designing professional, executive-ready dashboards
+- Applying data analytics to real-world business problems
+
+---
+
+## 🔗 Project Status
+✅ Completed  
+📌 Open for future enhancements such as predictive modeling and automation
+
+---
+
+## 👤 Author
+**Nikhita Sargam**  
+Aspiring Data Analyst | Python | Power BI | Data Visualization
+
