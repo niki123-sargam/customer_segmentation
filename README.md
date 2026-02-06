@@ -1,74 +1,64 @@
-# 📊 Customer Segmentation Dashboard (RFM Analysis)
+# 📊 Customer Segmentation using RFM Analysis (Python & Power BI)
 
-## 📌 Project Overview
-This project focuses on analyzing customer purchase behavior using **RFM (Recency, Frequency, Monetary) analysis**.  
-The goal is to segment customers into meaningful groups and build an interactive **Power BI dashboard** to support data-driven business decisions.
+## 🔎 Problem Statement
+Businesses often struggle to understand which customers are most valuable, which are at risk of churn, and where to focus retention efforts. Raw transactional data alone does not provide actionable insights unless it is structured and analyzed effectively.
 
-The project covers the complete data lifecycle — from raw transaction data to customer insights and visualization.
+This project addresses that problem by applying **RFM (Recency, Frequency, Monetary) analysis** to segment customers based on their purchasing behavior and presenting the insights through a clean, interactive Power BI dashboard.
 
 ---
 
-## 🧠 Key Objectives
-- Understand customer behavior based on purchase patterns
-- Segment customers into actionable groups (Regular, Loyal, At-Risk, New)
-- Identify high-value customers and churn risks
-- Create an executive-ready interactive dashboard
+## 🎯 Project Objective
+The objective of this project is to:
+- Analyze customer purchase behavior using transactional retail data
+- Segment customers into meaningful and actionable groups
+- Identify high-value, loyal, and at-risk customers
+- Build a professional dashboard to support data-driven business decisions
+
+---
+
+## 🧠 Approach & Methodology
+The project follows an end-to-end analytics workflow:
+
+1. **Data Cleaning & Preparation**
+   - Removed missing and invalid customer records
+   - Converted date fields to proper datetime format
+   - Created total transaction value from quantity and unit price
+
+2. **Feature Engineering (RFM Analysis)**
+   - **Recency**: Days since the customer’s most recent purchase
+   - **Frequency**: Number of transactions made by the customer
+   - **Monetary**: Total spending by the customer
+
+3. **Customer Segmentation**
+   - Customers were classified into segments such as:
+     - Loyal High-Value Customers
+     - Regular Customers
+     - New / Potential Customers
+     - At-Risk Customers
+
+4. **Data Visualization (Power BI)**
+   - Built an interactive dashboard with KPIs, bar charts, pie charts, line charts, and scatter plots
+   - Focused on clarity, consistency, and business storytelling
+
+---
+
+## 📊 Dashboard Insights
+The Power BI dashboard provides insights such as:
+- Distribution of customers across different segments
+- Revenue contribution by each customer segment
+- Identification of high-value and churn-risk customers
+- Relationship between recency, frequency, and monetary value
+- Actionable insights for customer retention and targeting strategies
 
 ---
 
 ## 🛠 Tools & Technologies Used
 - **Python** (Pandas, NumPy)
 - **Jupyter Notebook**
-- **Power BI**
 - **RFM Analysis**
-- **Data Cleaning & EDA**
-- **GitHub** (Project version control)
-
----
-
-## 📂 Dataset
-- Online retail transactional dataset
-- Fields include:
-  - Invoice Date
-  - Customer ID
-  - Quantity
-  - Unit Price
-  - Country
-
----
-
-## ⚙️ Project Workflow
-1. **Data Cleaning**
-   - Removed missing and invalid values
-   - Converted date fields
-   - Calculated total transaction value
-
-2. **RFM Feature Engineering**
-   - Recency: Days since last purchase
-   - Frequency: Number of transactions
-   - Monetary: Total spend per customer
-
-3. **Customer Segmentation**
-   - Classified customers into:
-     - Regular Customers
-     - Loyal High-Value Customers
-     - At-Risk Customers
-     - New / Potential Customers
-
-4. **Dashboard Development (Power BI)**
-   - Customer distribution by segment
-   - Revenue contribution by segment
-   - Recency vs Monetary scatter analysis
-   - Line charts and pie charts for insights
-   - KPI cards for summary metrics
-
----
-
-## 📊 Dashboard Highlights
-- Interactive filters by customer segment
-- Visual comparison of customer value
-- Identification of high-value and churn-risk customers
-- Clean and professional business-ready layout
+- **Power BI**
+- **CSV Dataset**
+- **GitHub** (Version Control & Project Hosting)
 
 ---
 
