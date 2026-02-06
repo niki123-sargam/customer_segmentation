@@ -87,7 +87,11 @@ The Power BI dashboard provides insights such as:
 ✅ Completed  
 📌 Open for future enhancements such as predictive modeling and automation
 
----
+---## 📸 Dashboard Preview
+
+### Executive Overview
+![Dashboard Overview](customer_seg_powerbi.png)
+
 
 ## 👤 Author
 **Nikhita Sargam**  
